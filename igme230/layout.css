@@ -1,0 +1,103 @@
+/* This imports the fonts Open Sans and Lobster */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/* This set the background image and repeats it. 
+It also sets the font family to Open Sans.*/
+body {
+    height: auto;
+    font-family: 'Open Sans';
+    margin: 0px;
+}
+
+/* This sets the header section height to 50px,
+aligns the text to the center with a line height of .5em
+and fixes the bar to the top of the page. */
+header{
+    height: 85px;
+    text-align: center;
+    line-height: 0.005em;
+    background: #73D2DE;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+}
+
+/* This sets 960px-wide a background for the content to appear on,
+insettting everything within with a padding of 15px, and automatic margins */
+#container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* This adjusts the font size from 24px to 20px */
+h2{
+    font-size: 20px;
+    color: #D81159;
+}
+
+/* This sets the aside section to float left,
+sets the width to be 30% of the width of container,
+sets the height to 500px, and sets 15px of padding 
+between text and the border */
+aside{
+    float: left;
+    width: 30%;
+    height: 500px;
+    background: #ffffff;
+    padding-left: 15px;
+}
+
+/* This leaves 15px of space between the 
+top of the section and the image. */
+#portrait {
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+/* This sets the article section to float right,
+sets the width to be 65% of the width of container,
+sets the height to 500px with the overflow text being scrollable,
+and sets 15px of padding between text and the border */
+article{
+    float: right;
+    width: 65%;
+    height: 500px;
+    padding-left: 15px;
+    background: #ffffff;
+}
+
+div.week{
+    color: #FFBB41;
+    font-size: 16px;
+    white-space: nowrap;
+    display:inline
+}
+
+/* This removes the underline from links and colors the like the same blue as the header */
+a[href]{
+    text-decoration: none;
+    color: #73D2DE;
+}
+
+/*This colors the visited like the same blue as the header */
+a[href]:visited{
+    color: #73D2DE;
+}
+
+/*This colors the link thats being hovered over grey */
+a[href]:hover {
+    color: #D0CCD0;
+}
+
+/*This colors the link selected grey */
+a[href]:active {
+    color: #D0CCD0;
+}
+
+

@@ -1,0 +1,31 @@
+/* This imports the font Open Sans and Lobster */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/* This centers the text, colors it blue,
+sets the font to Lobster and the size to 128px */
+h1{
+    text-align: center;
+    color: #73D2DE;
+    font-family: 'Lobster', cursive;
+    font-size: 128px;
+    line-height: .2em;
+}
+
+/* This centers the text, colors it pink,
+sets the font to Open Sans and the size to 36px */
+h2{
+    text-align: center;
+    color: #D81159;
+    font-family: 'Open Sans';
+    font-size: 36px;
+}
+
+/* This centers the image, and the size to a block of 360px */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 360px;
+}

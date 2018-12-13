@@ -1,0 +1,76 @@
+/* This imports the font Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* This sets a border around each section */
+header, footer, article, aside {border: 1px solid black;}
+
+/* This adjusts the font size from 24px to 20px */
+h2{
+    font-size: 20px;
+}
+
+/* This set the background image and repeats it. It also */
+body {
+    background-image: url("http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg");
+    background-repeat: repeat;
+    margin-left: 331px;
+    margin-right: 331px;
+    height: auto;
+    font-family: 'Open Sans'
+}
+
+/* This sets 960px-wide a white background for the content to appear on,
+insettting everything within with a padding of 15px, and automatic margins */
+#container{
+    background: #ffffff;
+    padding: 15px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* This sets the header section height to 50px,
+aligns the text to the center with a line height of .5em
+and a margin underneith of 15px */
+header{
+    height: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: .5em;
+}
+
+/* This sets the aside section to float left,
+sets the width to be 35% of the width of container,
+sets the height to 500px, and sets 15px of padding 
+between text and the border */
+aside{
+    float: left;
+    width: 30%;
+    height: 500px;
+    padding-left: 15px;
+}
+
+/* This leaves 15px of space between the 
+top of the section and the image. */
+#portrait {
+   padding-top: 15px;
+}
+
+/* This sets the article section to float right,
+sets the width to be 65% of the width of container,
+sets the height to 500px with the overflow text being scrollable,
+and sets 15px of padding between text and the border */
+article{
+    float: right;
+    width: 65%;
+    height: 500px;
+    overflow: scroll;
+    padding-left: 15px;
+}
+
+/* This sets the section height to 50px, puts it at the 
+bottom of the container ans centers te text */
+footer{
+    height: 50px;
+    margin-top: 531px;
+    text-align: center;
+}
