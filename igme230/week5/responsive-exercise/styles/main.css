@@ -1,0 +1,106 @@
+/* CSS Reset (
+------------------------------------------------------------ */
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,header,footer,nav,article  {
+    margin:0;
+    padding:0;
+    font-family: Arimo;
+}
+    
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+    }
+    
+ul {
+    list-style:none;
+    }
+
+button,input,select,textarea {
+    margin:0;
+}
+
+html {
+    box-sizing:border-box
+    }
+    
+*,*:before,*:after { 
+    box-sizing:inherit;
+    }
+    
+ img,embed,iframe,object,audio,video {
+    height:auto;
+    max-width:100%;
+    } 
+    
+iframe {
+    border:0;
+    }
+    
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    }
+    
+td,th {
+    padding:0;
+    text-align:left
+    }
+
+#logo{
+    height: 70px;
+    width: 160px;
+    float: left;
+    background-image: url("../images/darth.png");
+    text-indent: -9999px;
+}
+
+		
+nav {
+    float: left;
+    margin-top: 35px;
+}
+
+nav, ul, li{
+    display: inline;
+    font-size: medium;
+    margin-left: 15px;
+}
+
+#deathStar{
+    clear: left;
+}		
+
+section{
+    font-size: larger;
+    float: left;
+}
+
+#jobs{
+    width: 35%;
+    float: right;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+
+#main {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+    }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+nav, #about, #jobs {
+		float: left;
+		clear: left;
+		margin: 0 0 10px; 
+		width: 100%;
+	}
+}
