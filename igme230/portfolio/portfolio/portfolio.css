@@ -1,0 +1,139 @@
+/* This imports the fonts Open Sans and Lobster */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+	font-family: 'Open Sans';
+	height: auto;
+	margin: 0px;
+}
+ 
+/* This sets the header section height to 50px,
+aligns the text to the center with a line height of .5em
+and fixes the bar to the top of the page. */
+nav {
+	background: #F7F7FF;
+	color: #39A9DB;
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+	height: 60px;
+	line-height: 0.005em;
+	position: fixed;
+	text-align: left;
+	top: 0;
+	white-space: nowrap;
+	width: 100%;
+}
+ 
+nav h1 {
+	float: left;
+	padding-left: 25px;
+}
+ 
+nav ul {
+	display: block;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding-right: 25px;
+	padding-top: 15px;
+}
+ 
+a {
+	text-decoration: none;
+}
+ 
+#container a, nav h1 a {
+	color: #39A9DB;
+}
+ 
+/* Change the link color to #39A9DB on hover */
+#container a:hover {
+	color: #F7F7FF;
+}
+ 
+nav li {
+	float: right;
+}
+ 
+nav li a {
+	color: #423E37;
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
+ 
+.active {
+	color: #39A9DB;
+}
+ 
+header h1 {
+	color: #FFAD05;
+	font-family: 'Lobster', cursive;
+	font-size: 48px;
+	margin-top: 100px;
+	text-align: center;
+}
+ 
+hr {
+	background-color: #FFAD05;
+	border-color: #FFAD05;
+	border-style: inset;
+	border-width: 1px;
+	color: #FFAD05;
+	display: block;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+	width: 960px;
+}
+ 
+/* This sets 960px-wide a background for the content to appear on,
+insettting everything within with a padding of 15px, and automatic margins */
+#container {
+	margin-top: 25px;
+	margin: 0 auto;
+	width: 960px;
+}
+ 
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 31.2%;
+}
+
+#middle .column {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.column img {
+	margin-top: 12px;
+	width: 100%;
+	text-align: center;
+}
+ 
+/* Clear floats after the columns */
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+ 
+/* Style the Image Used to Trigger the Modal */
+img {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+ 
+img:hover {
+	opacity: 0.7;
+}

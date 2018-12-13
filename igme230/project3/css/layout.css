@@ -1,0 +1,222 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    background-image: url("./media/bg.png");
+    background-repeat: repeat;
+}
+
+h1, h2, h3{
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+.navbar{margin-bottom: 0;}
+
+.navbar a{color: #222222;}
+
+.navbar-default .navbar-nav>li>a {font-size: 16px;}
+
+.navbar-brand h1{
+    margin-bottom: 2.5px;
+}
+
+.navbar-right{
+    font-size: 18px;
+}
+
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 70px;
+    max-width: 960px;
+    /* Line separator */
+    border-width: 2px;
+    border-bottom-width:2px;
+    border-bottom-color:#7b76a0;
+    border-bottom-style: solid;
+    width: 100%;
+}
+.container-fluid h3{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.navbar li a{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.active{
+    color: #a0396c;
+}
+
+/* Content Styles */
+#mainContainer:not(#portrait){
+    margin: auto;
+    display: flex;
+    max-width: 960px;
+    min-height: 640px;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #fffffc;
+}
+
+/* Content Styles */
+aside, #bio{
+    margin: 30px;
+}
+
+#bio h1{
+    color: #a0396c;
+    font-size: 40px;
+}
+
+aside h2{
+    color: #a0396c;
+    font-size: 24px;
+}
+
+#contactInfo{
+    margin-top: 15px;
+}
+
+#class, #project{
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#presentation{
+    /* There is an inline style display inline-block just incase if you change the flow */
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 97%; 
+    /* Width is supposed to be 100% but it keeps over flowing to the right 
+    is there a way to keep the margin 15px and allow the width to adjust itself?
+    97% work for now
+    */
+}
+
+/* Footer Styles */
+
+#line{
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    max-width: 960px;
+    /* Line separator */
+    border-width: 2px;
+    border-top-width:2px;
+    border-top-color: #7b76a0;
+    border-top-style: solid;
+    width: 100%;
+    background-color: #fffffc;
+}
+
+#footer{
+    padding: 15px;
+     margin: auto;
+     max-width: 960px;
+     /* Line separator */
+     border-width: 2px;
+     border-top-width:2px;
+     border-top-color:lightgray;
+     border-top-style: solid;
+}
+
+#footer p {
+    display: inline-block;
+    clear: right;
+}
+
+#footer ul{
+    float: right;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin: 5px 5px 0 5px;
+    
+}
+
+#footer ul li i{
+    color: #a0396c;
+    margin: 0 5px 0 5px;   
+}
+
+.fa {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* Table */
+.myTableText4 { 
+    width: 30%;
+    border-collapse: collapse;
+    background-color: #fffffc; 
+    margin: 5px;
+    border: 2px solid #7b76a0;
+}
+
+.myTableText4 img{
+    PADDING-TOP: 25px;
+    PADDING-BOTTOM: 25px;
+    width: 75px;
+    height: 125px;
+}
+
+.myTableText4 tbody, .myTableText4 tfoot{
+    background-color: #7b76a0; 
+}
+
+.myTableText4 td, .myTableText4 th { 
+    height: 60px;
+}
+.myTableText4 th { 
+    font: bold 24px/2.0em Roboto, sans-serif;
+    letter-spacing: 0.05em; 
+    background-color: #fffffc;
+}
+.myTableText4 td { 
+    font: normal 14px/1.5em Roboto, sans-serif;
+    text-align: center;
+    PADDING-RIGHT: 5px;
+    color: #252525;
+    PADDING-TOP: 20px;
+}
+    
+   /* Buttons */
+.button4 {
+     border: 0px solid #7b76a0;
+     background: #7b76a0;
+     padding: 8px 20px;
+     border-radius: 0px;
+     text-shadow: #7b76a0 0 0px 0;
+     color: #fffffc;
+     font-size: 24px;
+     font-family: Roboto, sans-serif;
+     text-decoration: none;
+     vertical-align: middle;
+}
+.button4:hover {
+     background: #7b76a0;
+     color: lightgray;
+}
+.button4:active {
+     background: #7b76a0;
+     color: lightgray;
+}
