@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="layout.css">
+    <title>Forms Exercise</title>
+</head>
+
+<body>
+    <form action="mailto:tec1850@rit.edu" method="post">
+        <h1>Taylor Cox's Sample Form</h1>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="text" id="password" name="password">
+            </div>
+        </fieldset>
+        <div>
+            <label for="comments">Comments: </label>
+            <textarea id="comments">by default this element is filled with this text</textarea>
+        </div>
+        <div>
+            <label for="response">Response Requested?</label>
+            <ul>
+                <li><input type="radio" name="response" value="yes">Yes, please!</li>
+                <li><input type="radio" name="response" value="no">No, thanks!</li>
+            </ul>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

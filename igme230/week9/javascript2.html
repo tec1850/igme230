@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript 2</title>
+    <style>
+        body {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Page</h1>
+    <h2>Info</h2>
+    <h2>Pictures</h2>
+    <h2>More Info</h2>
+    <p>Blah
+        <strong>Blah</strong> Blah</p>
+    <p>Blah
+        <strong>Blah</strong> Blah</p>
+    <p id="lastParagraph">Blah
+        <strong>Blah</strong> Blah</p>
+    <footer>Copyright &copy;
+        <strong>20XX</strong>
+    </footer>
+
+    <script>
+        let h1 = document.querySelector("h1");
+        h1.innerHTML = "My UFO Page";
+
+        let allHeadings = document.querySelectorAll("h2");
+        allHeadings[0].innerHTML = "My UFO Info";
+        allHeadings[1].innerHTML = "My UFO Pictures";
+        allHeadings[2].innerHTML = "";
+
+        let body = document.querySelector("body");
+        body.style.color = "red";
+        body.style.fontFamily = "sans-serif";
+
+        let allParagraphs = document.querySelectorAll("p");
+        allParagraphs[0].innerHTML = "Report your UFO sightings here: " + ("http://www.nuforc.org").link("http://www.nuforc.org");
+        allParagraphs[1].innerHTML = "";
+        allParagraphs[2].innerHTML = "<img src='http://cdn.images.express.co.uk/img/dynamic/galleries/x701/146831.jpg' alt='UFO' height='350' width='450'>";
+
+        for (let i = 0; i < allParagraphs.length; i++) {
+            let h2 = allParagraphs[i];
+            h2.style.color = "green";
+            h2.style.fontWeight = "bold";
+            h2.style.fontSize = "2em";
+            h2.style.textTransform = "uppercase";
+            h2.style.textShadow = "3px 2px #A44";
+        }
+        
+        let footer = document.querySelector("footer");
+        footer.innerHTML = "© 2017 Taylor Cox.";
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>
